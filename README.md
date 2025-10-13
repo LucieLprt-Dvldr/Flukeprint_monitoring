@@ -39,7 +39,7 @@ example_video/
 ### 🚀 Getting Started
 1. Clone the repository:
    ```bash
-   git clone https://github.com/USERNAME/whale-flukeprint-analysis.git
+   git clone https://github.com/USERNAME/flukeprint-monitoring.git
    ```
 2. Open an R session (≥4.2)
 3. Install required packages:
