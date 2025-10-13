@@ -1,4 +1,4 @@
-# Thermal and RGB UAV Imagery of Humpback Whales
+# UAV-based Thermal Flukeprint Imagery for Non-Invasive Monitoring of Humpback Whales
 
 **In the Tracks of a Whale: Thermal Flukeprints Inform on Size and Movement Dynamics.**
 
