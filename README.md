@@ -52,8 +52,8 @@ example_video/
 ---
 
 ### 📊 Example Outputs
-- **Figure 4A–C:** Flukeprint width vs body length  
-- **Figure 5D–E:** Spacing–speed relationship and LOOCV validation  
+- **Figure 4A:** Flukeprint width vs body length  
+- **Figure 5A:** Spacing–speed relationship  
 - **Figure 6A:** Orientation agreement between TIR and RGB imagery  
 
 Example synchronized RGB–TIR video frames are available in `/example_video`.
