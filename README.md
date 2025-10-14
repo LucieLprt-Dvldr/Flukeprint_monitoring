@@ -1,4 +1,4 @@
-# UAV-based Thermal Flukeprint Imagery for Non-Invasive Monitoring of Humpback Whales 🛩️🐋
+# 🛩️🐋 UAV-based Thermal Flukeprint Imagery for Non-Invasive Monitoring of Humpback Whales 
 
 Scripts, datasets, and supplementary materials accompanying the manuscript:  
 **In the Tracks of a Whale: Thermal Flukeprints Inform on Size and Movement Dynamics.** , submitted to *Journal of Experimental Biology*.
