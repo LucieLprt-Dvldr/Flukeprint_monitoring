@@ -1,6 +1,7 @@
-# UAV-based Thermal Flukeprint Imagery for Non-Invasive Monitoring of Humpback Whales
+# UAV-based Thermal Flukeprint Imagery for Non-Invasive Monitoring of Humpback Whales 🛩️🐋
 
-**In the Tracks of a Whale: Thermal Flukeprints Inform on Size and Movement Dynamics.**
+Scripts, datasets, and supplementary materials accompanying the manuscript:  
+**In the Tracks of a Whale: Thermal Flukeprints Inform on Size and Movement Dynamics.** , submitted to *Journal of Experimental Biology*.
 
 [![R](https://img.shields.io/badge/R-4.2%2B-blue)]()
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)]()
@@ -56,15 +57,24 @@ example_video/
 - **Figure 5A:** Spacing–speed relationship  
 - **Figure 6A:** Orientation agreement between TIR and RGB imagery  
 
-Example synchronized RGB–TIR video frames are available in `/example_video`.
+Example synchronized RGB–TIR video frames can be accessed in `/example_video`.
 
 ---
+### 🎥 Example Video
+A short example video demonstrating data acquisition is available in the Zenodo archive under “Files” (same DOI).
+If viewing directly from GitHub, you can access it here:
+👉 Download example_video.mp4 via Zenodo
 
-### 🧠 Citation
-If you use this repository, please cite:
+---
+### 📝 Citation
+If you use any materials from this repository, please cite:
 
-> (TO BE ADDED)
-[Authors]. (2025). *TITLE OF PAPER HERE.* [Journal Name]. DOI: [insert DOI here]
+> Laporte-Devylder, *et al.* (2025). *In the Tracks of a Whale: Thermal Flukeprints Inform on Size and Movement Dynamics.* Dataset and analysis scripts. Zenodo.  
+>[![DOI](https://zenodo.org/badge/DOI/10.xxxxx/zenodo.placeholder.svg)](https://doi.org/10.xxxxx/zenodo.placeholder)
+
+*(This is the **concept DOI**, which always points to the latest archived version.)*
+
+Once the article is published, this README will be updated to include the journal citation and paper DOI.
 
 ---
 
@@ -78,7 +88,7 @@ You are free to reuse and adapt the materials for research and educational purpo
 
 ---
 
-### 📫 Contact
+### ⚓ Contact
 **[Lucie Laporte-Devylder]**  
 [WildDrone - University of Southern Denmark]  
 📧 [lucie@biology.sdu.dk] ; [lucie.lprt@gmail.com]   
