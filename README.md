@@ -70,7 +70,7 @@ If viewing directly from GitHub, you can access it here:
 If you use any materials from this repository, please cite:
 
 > Laporte-Devylder, *et al.* (2025). *In the Tracks of a Whale: Thermal Flukeprints Inform on Size and Movement Dynamics.* Dataset and analysis scripts. Zenodo.  
->[![DOI](https://zenodo.org/badge/DOI/10.xxxxx/zenodo.placeholder.svg)](https://doi.org/10.xxxxx/zenodo.placeholder)
+>[![DOI](https://zenodo.org/badge/1075426076.svg)](https://doi.org/10.5281/zenodo.17350087)
 
 *(This is the **concept DOI**, which always points to the latest archived version.)*
 
