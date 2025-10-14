@@ -5,7 +5,7 @@ Scripts, datasets, and supplementary materials accompanying the manuscript:
 
 [![R](https://img.shields.io/badge/R-4.2%2B-blue)]()
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)]()
-[![DOI](https://zenodo.org/badge/DOI_PLACEHOLDER.svg)](DOI_LINK_PLACEHOLDER)
+[![DOI](https://zenodo.org/badge/1075426076.svg)](https://doi.org/10.5281/zenodo.17350087)
 
 ---
 
