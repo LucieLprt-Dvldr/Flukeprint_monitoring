@@ -44,7 +44,7 @@ example_video/
 2. Open an R session (≥4.2)
 3. Install required packages:
    ```R
-   install.packages(c("tidyverse", "lme4", "ggplot2", "irr", "performance", "Metrics", "psych"))
+    install.packages(c("tidyverse",  "dplyr",  "ggplot2",  "circular",  "CircStats",  "tidyr",  "lme4",  "irr",  "lmtest",  "merTools",  "purrr",  "lubridate",  "caret",  "pROC"))
    ```
 4. Run the desired script (e.g., `size_analysis.R`)  
    Each script automatically loads its dataset and reproduces the figures reported in the paper.
@@ -63,7 +63,8 @@ Example synchronized RGB–TIR video frames are available in `/example_video`.
 ### 🧠 Citation
 If you use this repository, please cite:
 
-> [Authors]. (2025). *TITLE OF PAPER HERE.* [Journal Name]. DOI: [insert DOI here]
+> (TO BE ADDED)
+[Authors]. (2025). *TITLE OF PAPER HERE.* [Journal Name]. DOI: [insert DOI here]
 
 ---
 
