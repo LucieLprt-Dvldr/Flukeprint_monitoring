@@ -1,7 +1,7 @@
 # 🛩️🐋 UAV-based Thermal Flukeprint Imagery for Non-Invasive Monitoring of Humpback Whales 
 
 Scripts, datasets, and supplementary materials accompanying the manuscript:  
-**In the Tracks of a Whale: Thermal Flukeprints Reveal Size and Movement Dynamics.** , submitted to *Journal of Experimental Biology*.
+**In the Tracks of a Whale: Thermal Flukeprints Reveal Body Size and Movement Dynamics.** , submitted to *Journal of Experimental Biology*.
 
 [![R](https://img.shields.io/badge/R-4.2%2B-blue)]()
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)]()
@@ -12,7 +12,7 @@ Scripts, datasets, and supplementary materials accompanying the manuscript:
 ### 📘 Overview
 This repository contains all R scripts, datasets, and example media used to reproduce the analyses presented in the manuscript:
 
-> *In the Tracks of a Whale: Thermal Flukeprints Reveal Size and Movement Dynamics.*
+> *In the Tracks of a Whale: Thermal Flukeprints Reveal Body Size and Movement Dynamics.*
 
 The analyses include:
 - **Size analysis** — estimating size of individuals from flukeprints  
@@ -69,7 +69,7 @@ If viewing directly from GitHub, you can access it here:
 ### 📝 Citation
 If you use any materials from this repository, please cite:
 
-> Laporte-Devylder, *et al.* (2025). *In the Tracks of a Whale: Thermal Flukeprints Reveal Size and Movement Dynamics.* Dataset and analysis scripts. Zenodo.  
+> Laporte-Devylder, *et al.* (2025). *In the Tracks of a Whale: Thermal Flukeprints Reveal Body Size and Movement Dynamics.* Dataset and analysis scripts. Zenodo.  
 >[![DOI](https://zenodo.org/badge/1075426076.svg)](https://doi.org/10.5281/zenodo.17350087)
 
 *(This is the **concept DOI**, which always points to the latest archived version.)*
