@@ -46,7 +46,7 @@ example_video/
 2. Open an R session (≥4.2)
 3. Install required packages:
    ```R
-    install.packages(c("tidyverse",  "dplyr",  "ggplot2",  "circular",  "CircStats",  "tidyr",  "lme4",  "irr",  "lmtest",  "merTools",  "purrr",  "lubridate",  "caret",  "pROC")) [see analysis scripts for exhaustive list of required packages]
+    install.packages(c("tidyverse",  "dplyr",  "ggplot2",  "circular",  "CircStats",  "tidyr",  "lme4",  "irr",  "lmtest",  "merTools",  "purrr",  "lubridate",  "caret",  "pROC")) #[see analysis scripts for exhaustive list of required packages]
    ```
 4. Run the desired script (e.g., `size_analysis.R`)  
    Each script automatically loads its dataset and reproduces the figures reported in the paper.
