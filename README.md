@@ -70,8 +70,7 @@ If viewing directly from GitHub, you can access it here:
 ### 📝 Citation
 If you use any materials from this repository, please cite:
 
-> Laporte-Devylder, *et al.* (2025). Dataset and scripts for: *In the Tracks of a Whale: Inferring Size Class, Orientation, and Swimming Speed from Thermal Flukeprints.* LucieLprt-Dvldr/Flukeprint_monitoring. Zenodo.  
->[![DOI](https://zenodo.org/badge/1075426076.svg)](https://doi.org/10.5281/zenodo.17350087)
+> Laporte-Devylder, *et al.* (2025). Dataset and scripts for: *In the Tracks of a Whale: Inferring Size Class, Orientation, and Swimming Speed from Thermal Flukeprints.* LucieLprt-Dvldr/Flukeprint_monitoring. Zenodo.  DOI: https://doi.org/10.5281/zenodo.17350087
 
 *(This is the **concept DOI**, which always points to the latest archived version.)*
 
@@ -90,10 +89,10 @@ You are free to reuse and adapt the materials for research and educational purpo
 ---
 
 ### ⚓ Contact
-**[Lucie Laporte-Devylder]**  
-[WildDrone - University of Southern Denmark]  
-📧 [lucie@biology.sdu.dk] ; [lucie.lprt@gmail.com]   
-🌐 [https://www.linkedin.com/in/lucie-laporte-devylder/]
-🌐 [https://www.researchgate.net/profile/Lucie-Laporte-Devylder]
+**Lucie Laporte-Devylder**  
+WildDrone - University of Southern Denmark  
+📧 lucie@biology.sdu.dk ; lucie.lprt@gmail.com   
+🌐 https://www.linkedin.com/in/lucie-laporte-devylder/
+🌐 https://www.researchgate.net/profile/Lucie-Laporte-Devylder
 
 ---
