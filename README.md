@@ -70,7 +70,7 @@ If viewing directly from GitHub, you can access it here:
 ### 📝 Citation
 If you use any materials from this repository, please cite:
 
-> Laporte-Devylder, *et al.* (2025). *In the Tracks of a Whale: Inferring Size Class, Orientation, and Swimming Speed from Thermal Flukeprints.* Dataset and analysis scripts. Zenodo.  
+> Laporte-Devylder, *et al.* (2025). Dataset and scripts for: *In the Tracks of a Whale: Inferring Size Class, Orientation, and Swimming Speed from Thermal Flukeprints.* LucieLprt-Dvldr/Flukeprint_monitoring. Zenodo.  
 >[![DOI](https://zenodo.org/badge/1075426076.svg)](https://doi.org/10.5281/zenodo.17350087)
 
 *(This is the **concept DOI**, which always points to the latest archived version.)*
