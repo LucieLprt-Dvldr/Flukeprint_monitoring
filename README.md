@@ -1,7 +1,7 @@
 # 🛩️🐋 UAV-based Thermal Flukeprint Imagery for Non-Invasive Monitoring of Humpback Whales 
 
 Scripts, datasets, and supplementary materials accompanying the manuscript:  
-**In the Tracks of a Whale: Inferring Size Class, Orientation, and Swimming Speed from Thermal Flukeprints.** , submitted to *Journal of Experimental Biology*.
+**In the Tracks of a Whale: Inferring Size Class, Orientation, and Swimming Speed from Thermal Flukeprints** , submitted to *Journal of Experimental Biology*.
 
 [![R](https://img.shields.io/badge/R-4.2%2B-blue)]()
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)]()
@@ -29,7 +29,8 @@ scripts/
     orientation_analysis.R
 data/
     size_data.txt
-    speed_data.txt
+    speed_data_01.txt
+    speed_data_02.txt
     orientation_data.txt
 example_video/
     TIR_RGB_example.mp4
@@ -45,7 +46,7 @@ example_video/
 2. Open an R session (≥4.2)
 3. Install required packages:
    ```R
-    install.packages(c("tidyverse",  "dplyr",  "ggplot2",  "circular",  "CircStats",  "tidyr",  "lme4",  "irr",  "lmtest",  "merTools",  "purrr",  "lubridate",  "caret",  "pROC"))
+    install.packages(c("tidyverse",  "dplyr",  "ggplot2",  "circular",  "CircStats",  "tidyr",  "lme4",  "irr",  "lmtest",  "merTools",  "purrr",  "lubridate",  "caret",  "pROC")) [see analysis scripts for exhaustive list of required packages]
    ```
 4. Run the desired script (e.g., `size_analysis.R`)  
    Each script automatically loads its dataset and reproduces the figures reported in the paper.
@@ -53,9 +54,9 @@ example_video/
 ---
 
 ### 📊 Example Outputs
-- **Figure 4A:** Flukeprint width vs body length  
-- **Figure 5A:** Spacing–speed relationship  
-- **Figure 6A:** Orientation agreement between TIR and RGB imagery  
+- **Figure 3A (in manuscript):** Body length vs Flukeprint width (Fig_size_1) 
+- **Figure 4A (in manuscript):** Spacing–speed relationship (Fig_speed_1)
+- **Figure 5 (in manuscript):** Orientation agreement between TIR and RGB imagery (Fig_orientation_1)
 
 Example synchronized RGB–TIR video frames can be accessed in `/example_video`.
 
@@ -69,7 +70,7 @@ If viewing directly from GitHub, you can access it here:
 ### 📝 Citation
 If you use any materials from this repository, please cite:
 
-> Laporte-Devylder, *et al.* (2026). *In the Tracks of a Whale: Inferring Size Class, Orientation, and Swimming Speed from Thermal Flukeprints.* Dataset and analysis scripts. Zenodo.  
+> Laporte-Devylder, *et al.* (2025). *In the Tracks of a Whale: Inferring Size Class, Orientation, and Swimming Speed from Thermal Flukeprints.* Dataset and analysis scripts. Zenodo.  
 >[![DOI](https://zenodo.org/badge/1075426076.svg)](https://doi.org/10.5281/zenodo.17350087)
 
 *(This is the **concept DOI**, which always points to the latest archived version.)*
