@@ -7,14 +7,13 @@
 # Contact: lucie.lprt@gmail.com
 #
 # Project: WildDrone (http://wilddrone.eu)
-# Associated Manuscript: [Title of paper, DOI once available]
-#
-# Date: July 2025
-# Version: 1.0
+# Associated Manuscript: "In the Tracks of a Whale: Inferring Size Class, Orientation, and Swimming Speed from Thermal Flukeprints". Lucie Laporte-Devylder, Henrik Skov Midtiby, Magnus Wahlberg. DOI:
+# Date: January 2026
+# Version: 2.0 (revised following peer review)
 #
 # Purpose:
 #   - Validate whale heading estimates from TIR flukeprints
-#     against RGB "ground truth"
+#     against RGB ground truth
 #   - Compute heading differences with circular correction
 #   - Classify agreement (Excellent, Good, Acceptable, Discrepancy)
 #   - Perform circular statistics (means, correlation, Rayleigh test)
@@ -22,11 +21,11 @@
 #   - Visualize agreement (scatter, histogram, polar plots)
 #
 # Input:
-#   - 03_orientation file (CSV/tab-delimited) with columns:
+#   - data file 03_orientation (tab-delimited) with columns:
 #       * name (individual ID)
 #       * event (surface event ID)
 #       * printID (sequential print index)
-#       * time (datetime, ISO format)
+#       * time (datetime, YYY-MM-DD HH:MM:SS.SSSSSS)
 #       * sensor ("RGB" or "TIR")
 #       * heading (°)
 #
@@ -42,11 +41,11 @@
 #
 # Usage:
 #   1. Place input file in `data/`
-#   2. Update INPUT_ORIENTATION path below
+#   2. Check INPUT_ORIENTATION path below
 #   3. Run script or source("03_orientation_analysis.R")
 #   4. Results appear in console and `results/plots/`
 #
-# License: [e.g., CC-BY 4.0 or MIT License]
+# License: CC-BY 4.0
 ############################################################
 
 
@@ -58,7 +57,7 @@ library(circular)
 library(CircStats)
 library(sp)   # optional, for geographic calculations
 
-# Input files (user-defined, relative paths recommended)
+# Input files
 INPUT_ORIENTATION <- "./data/03_orientation.txt"
 
 # Load dataset
@@ -100,7 +99,7 @@ df_compare$agreement <- factor(df_compare$agreement,
 
 
 # ---------------------- 2. Scatterplot: RGB vs TIR ---------------------- #
-p_scatter <- ggplot(df_compare, aes(x = heading_360_rgb, y = heading_360_tir, color = agreement)) +
+Fig_orientation_1 <- ggplot(df_compare, aes(x = heading_360_rgb, y = heading_360_tir, color = agreement)) +
   geom_point(alpha = 0.6, size = 3) +
   geom_abline(slope = 1, intercept = 0, linetype = "dashed", color = "red") +
   labs(x = "RGB Heading (°)", y = "TIR Heading (°)",
@@ -112,7 +111,7 @@ p_scatter <- ggplot(df_compare, aes(x = heading_360_rgb, y = heading_360_tir, co
                                 "Acceptable" = "chocolate1",
                                 "Discrepancy" = "red"))
 
-# ggsave("results/plots/orientation_scatter.png", p_scatter, width = 7, height = 6)
+# ggsave("results/plots/orientation_scatter.png", Fig_orientation_1, width = 7, height = 6)
 
 
 # ---------------------- 3. Circular Analysis ---------------------- #
@@ -179,7 +178,7 @@ print(agreement_summary)
 
 # ---------------------- 5. Plots: Agreement Distributions ---------------------- #
 # Histogram (linear scale)
-p_hist <- ggplot(df_compare, aes(x = diff_deg, fill = agreement)) +
+Fig_orientation_2 <- ggplot(df_compare, aes(x = diff_deg, fill = agreement)) +
   geom_histogram(binwidth = 5, color = "black", alpha = 0.8, boundary = 0) +
   scale_fill_manual(values = c("Excellent" = "chartreuse3",
                                "Good" = "gold",
@@ -189,12 +188,10 @@ p_hist <- ggplot(df_compare, aes(x = diff_deg, fill = agreement)) +
        x = "Difference (°)", y = "Count", fill = "Agreement") +
   theme_minimal(base_size = 14)
 
-# ggsave("results/plots/orientation_hist.png", p_hist, width = 7, height = 6)
+# ggsave("results/plots/orientation_hist.png", Fig_orientation_2, width = 7, height = 6)
 
 #Circular distribution (Supp. Material)
 par(mfrow=c(1,2))
-plot(rgb, stack=TRUE, bins=360, main="RGB headings")
-plot(tir, stack=TRUE, bins=360, main="TIR headings")
 
 mean_rgb <- mean.circular(rgb)
 mean_tir <- mean.circular(tir)
